@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>734</width>
+    <height>347</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images/图标.png</normaloff>images/图标.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>299</x>
+     <y>204</y>
+     <width>139</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_2
+{
+border-image: url(:/trayicon/images/6.png);
+}
+QPushButton#pushButton_2:hover
+{
+border-image: url(:/trayicon/images/6!.png);
+}
+QPushButton#pushButton_2:pressed
+{
+border-image: url(:/trayicon/images/6.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>586</x>
+     <y>63</y>
+     <width>143</width>
+     <height>139</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_3
+{
+border-image: url(:/trayicon/images/3.png);
+}
+QPushButton#pushButton_3:hover
+{
+border-image: url(:/trayicon/images/3!.png);
+}
+QPushButton#pushButton_3:pressed
+{
+border-image: url(:/trayicon/images/3.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closepushButton">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>10</y>
+     <width>35</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/trayicon/images/8.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>20</y>
+     <width>30</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/trayicon/images/9.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="savepushButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>204</y>
+     <width>289</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#savepushButton
+{
+border-image: url(:/trayicon/images/2.png);
+}
+QPushButton#savepushButton:hover
+{
+border-image: url(:/trayicon/images/2!.png);
+}
+QPushButton#savepushButton:pressed
+{
+border-image: url(:/trayicon/images/2.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="RoundpushButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>63</y>
+     <width>144</width>
+     <height>139</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#RoundpushButton
+{
+border-image: url(:/trayicon/images/7.png);
+}
+QPushButton#RoundpushButton:hover
+{
+border-image: url(:/trayicon/images/7!.png);
+}
+QPushButton#RoundpushButton:pressed
+{
+border-image: url(:/trayicon/images/7.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="shortcut">
+    <string>N</string>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="RectpushButton">
+   <property name="geometry">
+    <rect>
+     <x>6</x>
+     <y>63</y>
+     <width>291</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#RectpushButton
+{
+border-image: url(:/trayicon/images/4.png);
+}
+QPushButton#RectpushButton:hover
+{
+border-image: url(:/trayicon/images/4!.png);
+}
+QPushButton#RectpushButton:pressed
+{
+border-image: url(:/trayicon/images/4.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FullpushButton">
+   <property name="geometry">
+    <rect>
+     <x>299</x>
+     <y>63</y>
+     <width>139</width>
+     <height>139</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#FullpushButton
+{
+border-image: url(:/trayicon/images/5.png);
+}
+QPushButton#FullpushButton:hover
+{
+border-image: url(:/trayicon/images/5!.png);
+}
+QPushButton#FullpushButton:pressed
+{
+border-image: url(:/trayicon/images/5.png);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoDefault">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>741</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/trayicon/images/背景2.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBox">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>360</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>430</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>410</y>
+     <width>21</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>665</x>
+     <y>690</y>
+     <width>70</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:blue;
+color: rgb(0, 85, 255);</string>
+   </property>
+   <property name="text">
+    <string>先睹为快</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>690</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:red;
+selection-color: rgb(85, 0, 0);
+color: rgb(85, 0, 0);
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>蓝屏假象</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_3">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>670</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(76, 67, 56);
+background-color: rgb(76, 68, 57);
+border-color: rgb(76, 67, 56);
+selection-color: rgb(76, 67, 57);</string>
+   </property>
+   <property name="text">
+    <string>隐藏模式</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_4">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>690</y>
+     <width>70</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>真实蓝屏</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="saveDirpushButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>410</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>410</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>380</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="radioButton_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>360</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>420</y>
+     <width>31</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>460</y>
+     <width>641</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>用来写帮助文档的pushbutton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>350</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>更强的图像上传与编辑网站</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>380</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>在网络保管截图</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>696</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Agency FB</family>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>快速按两遍</string>
+   </property>
+  </widget>
+  <zorder>pushButton_4</zorder>
+  <zorder>label</zorder>
+  <zorder>closepushButton</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>savepushButton</zorder>
+  <zorder>RoundpushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>FullpushButton</zorder>
+  <zorder>RectpushButton</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>spinBox</zorder>
+  <zorder>checkBox</zorder>
+  <zorder>checkBox_2</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>checkBox_3</zorder>
+  <zorder>checkBox_4</zorder>
+  <zorder>saveDirpushButton</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>radioButton</zorder>
+  <zorder>radioButton_2</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>pushButton_9</zorder>
+  <zorder>label_2</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>toggleDown()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>350</x>
+     <y>210</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>140</x>
+     <y>103</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>toggleDown()</slot>
+  <slot>shotScreenSlotsuicide()</slot>
+  <slot>shotScreenSlot()</slot>
+  <slot>on_RectpushButton_clicked()</slot>
+ </slots>
+</ui>

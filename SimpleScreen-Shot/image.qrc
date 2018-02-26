@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/trayicon">
+        <file>images/1.png</file>
+        <file>images/2!.png</file>
+        <file>images/2.png</file>
+        <file>images/3!.png</file>
+        <file>images/3.png</file>
+        <file>images/4!.png</file>
+        <file>images/4.png</file>
+        <file>images/5!.png</file>
+        <file>images/5.png</file>
+        <file>images/6!.png</file>
+        <file>images/6.png</file>
+        <file>images/7!.png</file>
+        <file>images/7.png</file>
+        <file>images/8.png</file>
+        <file>images/9.png</file>
+        <file>images/bulescreen.png</file>
+        <file>images/fileico.png</file>
+        <file>images/filenew.png</file>
+        <file>images/find.png</file>
+        <file>images/图标.png</file>
+        <file>images/背景2.png</file>
+    </qresource>
+</RCC>
